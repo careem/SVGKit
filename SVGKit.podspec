@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Source/include/*.h'
   s.libraries = 'xml2'
   s.framework = 'QuartzCore', 'CoreText'
-  s.dependency 'CocoaLumberjack', '~> 3.0'
   s.module_map = 'SVGKitLibrary/SVGKit-iOS/SVGKit.modulemap'
   s.requires_arc = true
   s.pod_target_xcconfig = {
