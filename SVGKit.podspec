@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/*.{h,m}', 'Source/**/*.{h,m}'
   s.exclude_files = 'Source/include/*.h'
+  s.ios.private_header_files = 'Source/SVGKDefine_Private.h', 'Source/AppKit additions/SVGKImageRep.h', 'Source/Exporters/SVGKExporterNSImage.h'
   s.libraries = 'xml2'
   s.framework = 'QuartzCore', 'CoreText'
   s.module_map = 'SVGKitLibrary/SVGKit-iOS/SVGKit.modulemap'
