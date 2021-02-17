@@ -502,6 +502,10 @@
 		66F33DD1182FE1C4004464AC /* SVGPreserveAspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F33DCF182FE1C4004464AC /* SVGPreserveAspectRatio.m */; };
 		66F33DD4182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F33DD2182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66F33DD5182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F33DD3182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.m */; };
+		6EB2C0CC25DD4DD800DB913A /* SVGKitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */; };
+		6EB2C0CD25DD4DD800DB913A /* SVGKitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */; };
+		6EB2C0CE25DD4DD800DB913A /* SVGKitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */; };
+		6EB2C0CF25DD4DD800DB913A /* SVGKitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */; };
 		825CDAB91BDA4BC0003C1C12 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825CDAAF1BDA4BC0003C1C12 /* SVGKit.framework */; };
 		825CDAC91BDA4D09003C1C12 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639634116148CDF00E58CCA /* QuartzCore.framework */; };
 		825CDACA1BDA4D0F003C1C12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6639619116145D0400E58CCA /* Foundation.framework */; };
@@ -1286,6 +1290,7 @@
 		66F33DCF182FE1C4004464AC /* SVGPreserveAspectRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGPreserveAspectRatio.m; sourceTree = "<group>"; };
 		66F33DD2182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGAnimatedPreserveAspectRatio.h; sourceTree = "<group>"; };
 		66F33DD3182FE2C3004464AC /* SVGAnimatedPreserveAspectRatio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGAnimatedPreserveAspectRatio.m; sourceTree = "<group>"; };
+		6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGKitLogger.m; sourceTree = "<group>"; };
 		825CDAAF1BDA4BC0003C1C12 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		825CDAB81BDA4BC0003C1C12 /* SVGKitFramework-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVGKitFramework-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		825CDACC1BDA4D20003C1C12 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
@@ -1949,6 +1954,7 @@
 				66E8639E1688C2780059C9C4 /* SVGUtils.m */,
 				322A5B7B218BF990003D9CF1 /* SVGKInlineResource.h */,
 				322A5B7C218BF990003D9CF1 /* SVGKInlineResource.m */,
+				6EB2C0CB25DD4DD800DB913A /* SVGKitLogger.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2889,6 +2895,7 @@
 				321EAABB2171ED6F00640504 /* SVGElementInstance.m in Sources */,
 				321EAA8D2171ED6900640504 /* Document.m in Sources */,
 				321EAB352171ED9600640504 /* CAShapeLayerWithClipRender.m in Sources */,
+				6EB2C0CF25DD4DD800DB913A /* SVGKitLogger.m in Sources */,
 				321EAACD2171ED6F00640504 /* SVGRect.m in Sources */,
 				321EAB022171ED7E00640504 /* SVGSVGElement.m in Sources */,
 				321EAB0E2171ED8200640504 /* SVGKImage+CGContext.m in Sources */,
@@ -2940,6 +2947,7 @@
 				66E863AB1688C2780059C9C4 /* Document.m in Sources */,
 				32C4892221916F3D007B1F29 /* SVGTextLayer.m in Sources */,
 				66E863AD1688C2780059C9C4 /* DocumentFragment.m in Sources */,
+				6EB2C0CC25DD4DD800DB913A /* SVGKitLogger.m in Sources */,
 				66E863AF1688C2780059C9C4 /* DocumentType.m in Sources */,
 				66E863B11688C2780059C9C4 /* DOMHelperUtilities.m in Sources */,
 				66E863B31688C2780059C9C4 /* Element.m in Sources */,
@@ -3050,6 +3058,7 @@
 				825CDBFD1BDA511C003C1C12 /* CSSRule.m in Sources */,
 				32C4892321916F3D007B1F29 /* SVGTextLayer.m in Sources */,
 				825CDBFE1BDA511C003C1C12 /* CSSStyleRule.m in Sources */,
+				6EB2C0CD25DD4DD800DB913A /* SVGKitLogger.m in Sources */,
 				825CDBFF1BDA511C003C1C12 /* CSSStyleSheet.m in Sources */,
 				825CDC001BDA511C003C1C12 /* CSSRuleList.m in Sources */,
 				825CDC011BDA511C003C1C12 /* CSSPrimitiveValue.m in Sources */,
@@ -3168,6 +3177,7 @@
 				825CDC611BDA5144003C1C12 /* CSSRule.m in Sources */,
 				32C4892421916F3D007B1F29 /* SVGTextLayer.m in Sources */,
 				825CDC621BDA5144003C1C12 /* CSSStyleRule.m in Sources */,
+				6EB2C0CE25DD4DD800DB913A /* SVGKitLogger.m in Sources */,
 				825CDC631BDA5144003C1C12 /* CSSStyleSheet.m in Sources */,
 				825CDC641BDA5144003C1C12 /* CSSRuleList.m in Sources */,
 				825CDC651BDA5144003C1C12 /* CSSPrimitiveValue.m in Sources */,
